@@ -78,7 +78,7 @@ cfg.module.rules.push({
     // Full list of options: https://quasar.dev/quasar-cli/quasar-conf-js#Property%3A-devServer
     devServer: {
      disableHostCheck: true,
-     public: 'csc570e.uis.edu:9451',	    
+     public: 'ADDRESS:PORT',	    
      https: {
       key: fs.readFileSync('/etc/ssl/private/server_key.key'),
       cert: fs.readFileSync('/etc/ssl/private/server_cert.cer'),
